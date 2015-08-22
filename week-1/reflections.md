@@ -35,3 +35,14 @@ The most challenging for me was writing out commands involving multiple files or
 
 
 ## 1.4 Forking and Cloning Reflection
+
+A repository is like a folder and is used to store multiple files. Often times, open source projects are available via repositories and users can "fork" or make a copy of them so that they are able to add changes without affecting the original work. Users can also clone repositories onto their local machine so that they can work directly from their text editor instead of working online. They can then push commits, or snapshots of edits, from their terminal to the online platform to track all revisions of their repository. Here are some easy instructions for creating, forking, and cloning a repository via Github.
+
+1. If you are logged onto Github, you should see a plus sign button on the top right corner. Click this button and click "New repository."
+2. Give your repository a name, make it private or public, add a license if you wish, and click "create repository!"
+3. To fork a repository, simply open that repository on Github and click on the "fork" button that is on the top right corner. You should now have a copy of that repository in your account.
+4. To clone a repository, open the repository on Github and copy the HTTPS clone url that is on the right side of the page.
+5. Next, open your terminal and make sure you are in a directory not a repository. Then type: **git clone "URL that you copied"** and hit enter! and you should now have a clone in the directory that you are in!
+
+So far, I have had no struggles  setting up git and GitHub. I've used both before, but reading these articles made me better understand the whole process of forking and cloning, and why they would be useful for projects.
+
