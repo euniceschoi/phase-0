@@ -45,4 +45,3 @@ A repository is like a folder and is used to store multiple files. Often times, 
 5. Next, open your terminal and make sure you are in a directory not a repository. Then type: **git clone "URL that you copied"** and hit enter! and you should now have a clone in the directory that you are in!
 
 So far, I have had no struggles  setting up git and GitHub. I've used both before, but reading these articles made me better understand the whole process of forking and cloning, and why they would be useful for projects.
-
