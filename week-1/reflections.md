@@ -11,6 +11,7 @@ The shell acts like a middle man between the command line and the operating syst
 
 The most challenging for me was writing out commands involving multiple files or directories. Learning the commands was pretty straightforward, but utilizing them up or down the hierarchy of directories was more challenging. Overall, I was able to use all of the commands successfully. I think the most important commands would be the ones that are useful for big files. For instance, using the * as a wildcard is very useful for matching countless text files.
 
+
 -pwd :prints working directory that you are currently in
 
 -ls :lists all files and directories in the directory you are currently in
