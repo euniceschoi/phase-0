@@ -1,8 +1,8 @@
 *My Wireframe Images*
 
-![Wireframe of Index](/imgs/wireframe-index.png)
+![Wireframe of Index](/week-2/imgs/wireframe-index.png)
 
-![Wireframe of Blogs](/imgs/wireframe-blog-index.png)
+![Wireframe of Blogs](/week-2/imgs/wireframe-blog-index.png)
 
 ##Reflection##
 
