@@ -3,23 +3,23 @@
 ###What are the 6 Phases of Web Design?###
 
 The 6 phases of web design are:
-1. Information Gathering
-    - it is important to understand the purpose, goals, target audience and the content
-2. Planning
-    - planning via a site map helps you plan your website, main topic areas, and sub topic areas
-3. Design
-    - look and feel of the website
-    - target audience, logo, and design elements like color
-    - it is important to create more than one prototype!
-4. Development
-    - creating the functional site
-    - developing a home page followed by a "shell" for interior pages
-5. Testing and Delivery
-    - finalizing details and testing for complete functionality
-    - is the code valid?
-    - optimization plug in installations
-6. Maintenance
-    - updating and maintaining your website is very important if you want to bring repeat visitors
+1.  Information Gathering
+    -   it is important to understand the purpose, goals, target audience and the content
+2.  Planning
+    -   planning via a site map helps you plan your website, main topic areas, and sub topic areas
+3.  Design
+    -   look and feel of the website
+    -   target audience, logo, and design elements like color
+    -   it is important to create more than one prototype!
+4.  Development
+    -   creating the functional site
+    -   developing a home page followed by a "shell" for interior pages
+5.  Testing and Delivery
+    -   finalizing details and testing for complete functionality
+    -   is the code valid?
+    -   optimization plug in installations
+6.  Maintenance
+    -   updating and maintaining your website is very important if you want to bring repeat visitors
 
 
 ###What is your site's primary goal or purpose? What kind of content will your site feature?###
