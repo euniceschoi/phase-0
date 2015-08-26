@@ -1,6 +1,7 @@
 *My Wireframe Images*
 
 ![Wireframe of Index](/imgs/wireframe-index.png)
+
 ![Wireframe of Blogs](/imgs/wireframe-blog-index.png)
 
 ##Reflection##
