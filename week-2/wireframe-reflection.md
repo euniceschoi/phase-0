@@ -5,6 +5,7 @@
 
 ##Reflection##
 
+
 ###What is a wireframe?###
 
 A wireframe is like an architectural blueprint for web design. It is a planned layout of where everything on your site will go. It helps you define the information hierarchy of your design and to plan your layout according to how you want your user to process the information.
