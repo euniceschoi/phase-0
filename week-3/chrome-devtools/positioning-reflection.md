@@ -1,14 +1,14 @@
 ##Screenshots from Release 3##
 
-![Challenge 1](/chrome-devtools/imgs/challenge-1.png)
-![Challenge 2](/chrome-devtools/imgs/challenge-2.png)
-![Challenge 3](/chrome-devtools/imgs/challenge-3.png)
-![Challenge 4](/chrome-devtools/imgs/challenge-4.png)
-![Challenge 5](/chrome-devtools/imgs/challenge-5.png)
-![Challenge 6](/chrome-devtools/imgs/challenge-6.png)
-![Challenge 7](/chrome-devtools/imgs/challenge-7.png)
-![Challenge 8](/chrome-devtools/imgs/challenge-8.png)
-![Challenge 9](/chrome-devtools/imgs/challenge-9.png)
+![Challenge 1](chrome-devtools/imgs/Challenge-1.png)
+![Challenge 2](chrome-devtools/imgs/Challenge-2.png)
+![Challenge 3](chrome-devtools/imgs/Challenge-3.png)
+![Challenge 4](chrome-devtools/imgs/Challenge-4.png)
+![Challenge 5](chrome-devtools/imgs/Challenge-5.png)
+![Challenge 6](chrome-devtools/imgs/Challenge-6.png)
+![Challenge 7](chrome-devtools/imgs/Challenge-7.png)
+![Challenge 8](chrome-devtools/imgs/Challenge-8.png)
+![Challenge 9](chrome-devtools/imgs/Challenge-9.png)
 
 ##My Reflection##
 
