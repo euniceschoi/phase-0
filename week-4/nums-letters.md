@@ -18,3 +18,14 @@ Integers are integral, whole numbers without decimal points. Floats are numbers 
 When you divide integers, or do any other arithmetic to integers, you will get integers. If the calculator answer has a decimal point it will round down. For example, 9 and 2 are integers, but if you divided 9 by 2 on a calculator, you get 4.5. On Ruby, you will get 4. This is useful for applying to real world circumstances. For instance, if a movie ticket costs 2 dollars, you can only buy 4 with 9 bucks.
 
 On the other hand, float division will result in a float answer. 9.0 divided by 2.0 will give you 4.5. This is useful for math or scientific uses. In physics, for example, you will want the calculator answer when performing arithmetics.
+
+##Release 2##
+
+*Hours in a year:*
+```ruby
+puts 365*24
+```
+*Minutes in a decade*
+```ruby
+puts 365 * 10 * 24 * 60
+```
