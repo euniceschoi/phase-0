@@ -1,8 +1,8 @@
 ##Screenshots from Release 3##
 
-![Challenge 1](/imgs/Challenge-1.png)
-![Challenge 2](/imgs/Challenge-2.png)
-![Challenge 3](/imgs/Challenge-3.png)
+![Challenge 1](imgs/Challenge-1.png)
+![Challenge 2](imgs/Challenge-2.png)
+![Challenge 3](imgs/Challenge-3.png)
 ![Challenge 4](chrome-devtools/imgs/Challenge-4.png)
 ![Challenge 5](chrome-devtools/imgs/Challenge-5.png)
 ![Challenge 6](chrome-devtools/imgs/Challenge-6.png)
