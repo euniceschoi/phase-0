@@ -3,12 +3,12 @@
 ![Challenge 1](imgs/Challenge-1.png)
 ![Challenge 2](imgs/Challenge-2.png)
 ![Challenge 3](imgs/Challenge-3.png)
-![Challenge 4](chrome-devtools/imgs/Challenge-4.png)
-![Challenge 5](chrome-devtools/imgs/Challenge-5.png)
-![Challenge 6](chrome-devtools/imgs/Challenge-6.png)
-![Challenge 7](chrome-devtools/imgs/Challenge-7.png)
-![Challenge 8](chrome-devtools/imgs/Challenge-8.png)
-![Challenge 9](chrome-devtools/imgs/Challenge-9.png)
+![Challenge 4](imgs/Challenge-4.png)
+![Challenge 5](imgs/Challenge-5.png)
+![Challenge 6](imgs/Challenge-6.png)
+![Challenge 7](imgs/Challenge-7.png)
+![Challenge 8](imgs/Challenge-8.png)
+![Challenge 9](imgs/Challenge-9.png)
 
 ##My Reflection##
 
@@ -30,7 +30,7 @@ I found absolute and fixed positioning to be the easiest to use, since they were
 
 ###What are the differences between Margin, Border, and Padding?###
 
-![Box Model](/imgs/box-model.gift)
+![Box Model](imgs/box-model.gift)
 
 I find an image like very useful for understanding the differences between margin, border, and padding. When you want to place an element in the center of the page, you would be adjusting the margins of it. The margins are the outermost spacing outside the content. So if you put your margin-left and margin-right as "auto" then your element will be placed horizontally in the middle. This means that the left and right margins have automatically adjusted to contain as much space as they can and are occupying the same space.
 
