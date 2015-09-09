@@ -30,7 +30,7 @@ I found absolute and fixed positioning to be the easiest to use, since they were
 
 ###What are the differences between Margin, Border, and Padding?###
 
-![Box Model](imgs/box-model.gift)
+![Box Model](imgs/box-model.gif)
 
 I find an image like very useful for understanding the differences between margin, border, and padding. When you want to place an element in the center of the page, you would be adjusting the margins of it. The margins are the outermost spacing outside the content. So if you put your margin-left and margin-right as "auto" then your element will be placed horizontally in the middle. This means that the left and right margins have automatically adjusted to contain as much space as they can and are occupying the same space.
 
