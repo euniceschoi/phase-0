@@ -12,9 +12,10 @@
 
 # Your Solution Below
 def largest_integer(list_of_nums)
-  if list_of_nums.empty?
+  if list_of_nums.count > 0
+    list_of_nums.sort!
+  else
     return nil
-  else list_of_nums.sort!
-    return list_of_nums.last
   end
+return list_of_nums.last
 end
