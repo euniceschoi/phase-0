@@ -20,3 +20,19 @@ def smallest_integer(list_of_nums)
   end
 return list_of_nums[0]
 end
+
+# def smallest_integer(list_of_nums)
+#   if list_of_nums.count > 0
+#     sort=1000000
+#     list_of_nums.each do |x|
+#       if x < sort
+#         sort = x
+#       else
+#         sort = x
+#       end
+#     return x
+#   end
+#   else
+#     return nil
+#   end
+# end
