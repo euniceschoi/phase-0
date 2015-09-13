@@ -15,14 +15,14 @@
 def longest_string(list_of_words)
   sort = 0
   index = 0
-  if list_of_words.count  == 0
+  if list_of_words.count  = 0
     return nil
   elsif
       list_of_words.each_with_index do |string, ind|
       if string.length > sort
-        sort == string.length
+        sort = string.length
+        index = ind
       end
-  index == ind
   puts list_of_words[index]
   end
 end
