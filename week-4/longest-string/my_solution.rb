@@ -15,17 +15,15 @@
 def longest_string(list_of_words)
   sort = 0
   index = 0
-  if list_of_words.count  = 0
+  if list_of_words.count  == 0
     return nil
-  elsif
-      list_of_words.each_with_index do |string, ind|
-      if string.length > sort
-        sort = string.length
-        index = ind
-      end
-  puts list_of_words[index]
+  else
+    list_of_words.each_with_index do |string, ind|
+    if string.length > sort
+      sort = string.length
+      index = ind
+    end
   end
+  return list_of_words[index]
 end
 end
-
-longest_string(['cat', 'aaaaaaa', 'apples'])
