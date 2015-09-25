@@ -5,14 +5,38 @@
 # I spent [#] hours on this challenge.
 
 class NameData
+  attr_reader :name
 
+  def initialize(name)
+    @name = name
+  end
 end
 
 
 class Greetings
+  attr_reader :namedata
+  def initialize
+    @namedata = []
+  end
 
+  def add(name)
+    @namedata << name
+  end
+
+  def hello
+    puts "Hello #{@namedata[1].name} How wonderful to see you today."
+  end
 end
 
+eunice = NameData.new("Eunice Choi")
+jason = NameData.new("Jason Zhao")
+
+greet = Greetings.new
+greet.add(eunice)
+greet.add(jason)
+
+# p greet.namedata
+greet.hello
 
 
 # Reflection
