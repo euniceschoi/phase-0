@@ -1,45 +1,29 @@
 #Attr Methods
 
-# I worked on this challenge [by myself, with:]
+# I worked on this challenge [by myself]
 
-# I spent [#] hours on this challenge.
+# I spent [1.5] hours on this challenge.
+
 
 class NameData
-  attr_reader :name
-
-  def initialize(name)
-    @name = name
+  def name
+    @name = "Eunice Choi"
   end
 end
-
 
 class Greetings
-  attr_reader :namedata
   def initialize
-    @namedata = []
+    @namedata = NameData.new
   end
 
-  def add(name)
-    @namedata << name
-  end
-
-  def hello
-    puts "Hello #{@namedata[1].name} How wonderful to see you today."
+  def greet
+    puts "Hello #{@namedata.name}, How wonderful to see you today."
   end
 end
 
-eunice = NameData.new("Eunice Choi")
-jason = NameData.new("Jason Zhao")
+hello = Greetings.new
+hello.greet
 
-greet = Greetings.new
-greet.add(eunice)
-greet.add(jason)
-
-# p greet.namedata
-greet.hello
-
-
-# Reflection
 
 #Release 1
 
@@ -91,3 +75,28 @@ greet.hello
 #Is this code simpler than the last?
 # Yes, using an attribute writer takes away the work for writing a whole new method
 # that will set a new value to an instance variable.
+
+
+#-----------------------------REFLECTION------------------------------
+# What is a reader method?
+# A reader method is one that gets a variable for you. For instance, you can define
+# a method called name, that returns the instance variable @name. A reader method
+# "gets" an object.
+
+# What is a writer method?
+# A writer method is one that changes a variable for you. For instance, you can define
+# a method called new_name, that sets the instance variable @name to a new name.
+# A writer method "sets" a new object.
+
+# What do the attr methods do for you?
+# attr_reader and attr_writer does the reader and writer methods for you. attr_accessor
+# does both.
+
+
+# Should you always use an accessor to cover your bases? Why or Why not?
+# No, having all instance variables changeable could cause difficulties when you are
+# debugging later on. It also makes your code less secure. You want to use it when it's
+# necessary.
+
+# What is confusing to you about these methods?
+# nothing, thus far!
