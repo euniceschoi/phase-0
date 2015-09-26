@@ -41,8 +41,34 @@ class BingoBoard
     @bingo_board = board
   end
 
+  def generator
+    bingo_letters = ["B","I","N","G","O"]
+    @letter = 'B'
+#     bingo_letters[rand(bingo_letters.length)]
+    @number = 47
+#     rand(1..100)
+  end
+
+  def check_board
+    generator
+    if @letter == 'B'
+      @bingo_board.map! do |element|
+        if element.kind_of?(Array)
+          element.map! do |number|
+            if number == element[0] && number == @number
+              number == 'X'
+            end
+          end
+        end
+      end
+    end
+    arr.collect(&:first)
+  end
+  @bingo_board
+
 
 end
+
 
 # Refactored Solution
 
