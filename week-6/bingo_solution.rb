@@ -46,6 +46,7 @@ class BingoBoard
     bingo_letters = ["B","I","N","G","O"]
     @letter = bingo_letters[rand(bingo_letters.length)]
     @number = rand(1..100)
+    p "#{@letter}, #{@number}"
   end
 
   def check_board
@@ -166,8 +167,6 @@ board = [[47, 44, 71, 8, 88],
         [75, 70, 54, 80, 83]]
 
 new_game = BingoBoard.new(board)
-
-new_game.generator
 new_game.check_board
 
 
