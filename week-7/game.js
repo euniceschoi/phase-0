@@ -28,7 +28,23 @@
 
 // Initial Code
 
-//Declare Player object that has properties as position and level
+var javamon = {
+      posX: 10 * Math.floor((Math.random()*10)+1),
+      posY: 10 * Math.floor((Math.random()*10)+1),
+      level: Math.floor((Math.random()*100)+1),
+      };
+
+      var rubyGem = {
+      posX: 10 * Math.floor((Math.random()*10)+1),
+      posY: 10 * Math.floor((Math.random()*10)+1)
+      };
+
+      var cssCookie = {
+      posX: 10 * Math.floor((Math.random()*10)+1),
+      posY: 10 * Math.floor((Math.random()*10)+1)
+      };
+
+
 var player = {
   posX: 0,
   posY: 0,
@@ -52,19 +68,19 @@ var player = {
 
     //Declare Javamon object within player object that has properties as position
     // When player moves, Javamon moves randomly
-    javamon.posX = Math.floor((Math.random()*100)+1);
-    javamon.posY = Math.floor((Math.random()*100)+1);
+    javamon.posX = 10 * Math.floor((Math.random()*10)+(-10));
+    javamon.posY = 10 * Math.floor((Math.random()*10)+(-10));
 
 
     //Check position of Player
     console.log("Player's position is at" + player.posX + "," + player.posY);
 
-    // Check position of Bonuses
-    rubyGem.posX = Math.floor((Math.random()*100)+1);
-    rubyGem.posY = Math.floor((Math.random()*100)+1);
+    // Check position of Bonuses3
+    // rubyGem.posX += 10 * Math.floor((Math.random()*10)+(-10));
+    // rubyGem.posY += 10 * Math.floor((Math.random()*10)+(-10));
 
-    cssCookie.posX = Math.floor((Math.random()*100)+1);
-    cssCookie.posY = Math.floor((Math.random()*100)+1);
+    // cssCookie.posX += 10 * Math.floor((Math.random()*10)+(-10));
+    // cssCookie.posY += 10 * Math.floor((Math.random()*10)+(-10));
 
     // Check position of Bonuses
     console.log("A Ruby gem has been found at" + rubyGem.posX + "," + rubyGem.posY);
@@ -88,7 +104,8 @@ var player = {
       if (playerReply === "Y"){
         if (player.level > javamon.level){
           console.log("Javamon is took weak! You win!");
-          console.log("You have caught Javamon!")
+          console.log("You have caught Javamon!");
+          player.success = true
         }
         if (player.level < javamon.level){
           console.log("Javamon is too strong! You lose!")
@@ -105,22 +122,6 @@ var player = {
 }
 
 
-
-var javamon = {
-  posX: Math.floor((Math.random()*100)+1),
-  posY: Math.floor((Math.random()*100)+1),
-  level: Math.floor((Math.random()*100)+1),
-};
-
-var rubyGem = {
-posX: Math.floor((Math.random()*100)+1),
-posY: Math.floor((Math.random()*100)+1)
-};
-
-var cssCookie = {
-posX: Math.floor((Math.random()*100)+1),
-posY: Math.floor((Math.random()*100)+1)
-};
 
 
 player.move('up');
