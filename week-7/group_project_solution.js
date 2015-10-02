@@ -27,6 +27,8 @@ function median(numberCollection1, numberCollection2){
 
 
 // Refactored
+
+// userstory: As a user, I want to calculate the sum of two groups of numbers.
 function sum(numberCollection1, numberCollection2){
   var totalSum = 0;
   numberCollection1.forEach(function(item, index){
@@ -38,13 +40,16 @@ function sum(numberCollection1, numberCollection2){
   return totalSum;
 }
 
-
+// userstory: As a user, I want to calculate the whole average of two groups of numbers.
+// I want to find the sum of all the numbers first then find the average by dividing the sum
+// by the number of integers.
 function mean(numberCollection1, numberCollection2){
   var totalSum = sum(numberCollection1, numberCollection2);
   return totalSum / (numberCollection1.length + numberCollection2.length);
 }
 
-
+// userstory: As a user, I want to calculate the median of two groups of numbers. I want to
+// combine all the numbers first then find the median.
 function median(numberCollection1, numberCollection2){
   var combinedCollection = numberCollection1.concat(numberCollection2);
   var half = Math.floor(combinedCollection.length / 2);
