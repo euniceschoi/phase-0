@@ -1,6 +1,6 @@
 # Virus Predictor
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge [with: Jupiter Baudot].
 # We spent [#] hours on this challenge.
 
 # EXPLANATION OF require_relative
@@ -19,6 +19,21 @@ class VirusPredictor
   def virus_effects
     predicted_deaths(@population_density, @population, @state)
     speed_of_spread(@population_density, @state)
+  end
+
+   def states
+    @states = STATE_DATA.keys
+    @states.each do |state|
+      puts state
+
+#     state = STATE_DATA.keys
+
+# @state = VirusPredictor.new(STATE_DATA.keys, STATE_DATA.keys[:population_density], STATE_DATA.keys[:population])
+# STATE_DATA.keys.virus_effects
+
+# alabama = VirusPredictor.new("Alabama", STATE_DATA["Alabama"][:population_density], STATE_DATA["Alabama"][:population])
+# alabama.virus_effects
+    end
   end
 
   private
@@ -87,3 +102,23 @@ STATE_DATA.each do |i|
 end
 #=======================================================================
 # Reflection Section
+
+# What are the differences between the two different hash syntaxes shown in the state_data file?
+# The first one points to a values with an arrow and
+# the second type uses a colon.
+
+# What does require_relative do? How is it different from require?
+# it allows you to use data from a file that is in the
+# same directory. Since state_data.rb is in the same
+# relative folder, you can do require_relative and use
+# the hash in your solution.
+
+# What are some ways to iterate through a hash?
+# You can do .each and .each_with_index.
+
+# When refactoring virus_effects, what stood out to you about the variables, if anything?
+
+# What concept did you most solidify in this challenge?
+# I am definitely now more familiar with using a class
+# and initializing it for each element in a data
+# collection.
