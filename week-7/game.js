@@ -75,12 +75,6 @@ var player = {
     //Check position of Player
     console.log("Player's position is at" + player.posX + "," + player.posY);
 
-    // Check position of Bonuses3
-    // rubyGem.posX += 10 * Math.floor((Math.random()*10)+(-10));
-    // rubyGem.posY += 10 * Math.floor((Math.random()*10)+(-10));
-
-    // cssCookie.posX += 10 * Math.floor((Math.random()*10)+(-10));
-    // cssCookie.posY += 10 * Math.floor((Math.random()*10)+(-10));
 
     // Check position of Bonuses
     console.log("A Ruby gem has been found at" + rubyGem.posX + "," + rubyGem.posY);
@@ -127,7 +121,7 @@ var player = {
 player.move('up');
 player.move('forward');
 
-// Refactored Code
+
 
 
 
@@ -135,11 +129,29 @@ player.move('forward');
 
 
 // Reflection
-//
-//
-//
-//
-//
-//
-//
-//
+//In the reflection section of your game.js file, answer the following questions:
+
+// What was the most difficult part of this challenge?
+// The most difficult part of this challenge was
+// controlling the positions of every object.
+// At first, I declared my gem and cookie objects
+// outside of the player object and that made them
+// go in the hundreds positions. So then, I made their
+// positions stagnant and also declared within the
+// player object.
+
+// What did you learn about creating objects and functions that interact with one another?
+// I learned that placement is very important. Since
+// JavaScript goes from to bottom, it is critical
+// to keep tha tin mind. Also that control flow is key!
+
+// Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
+//I learned posX and posY, which places location based
+// on the x,y vertices.
+
+// How can you access and manipulate properties of objects?
+// You can access by typing the object name with a period
+// then the property name. You can change it the same
+// way:
+// player.success will give you false
+// player.success = true  now changes it to true
