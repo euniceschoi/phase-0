@@ -1,8 +1,8 @@
 // U3.W9:JQuery
 
 
-// I worked on this challenge [by myself, with: ].
-// This challenge took me [#] hours.
+// I worked on this challenge [with: Shawn Watson ].
+// This challenge took me [1.5] hours.
 
 $(document).ready(function(){
 
@@ -48,10 +48,28 @@ $('img').on('mouseleave', function(){
 
 
 //RELEASE 5: Experiment on your own
+$('img').on('mouseover', function(){
+  // e.preventDefault()
+  $(this).attr('src', 'http://stream.loe.org/images/120302/top/TOPBobolink%20in%20Flight%20Paul%20Higgins.jpg');
+  $(this).animate({right:'+=10px'},'slow');
+})
 
 
 
+// end of the document.ready function: do not remove or write DOM manipulation below this.
 
+// REFLECTION
 
+// What is jQuery?
+// jQuery is a DOM manipulation and JavaScript library that comes with methods for
+// helping to create powerful websites. You can use jQuery to add interaction,
+// animations, and even widgets on your web page.
 
-})  // end of the document.ready function: do not remove or write DOM manipulation below this.
+// What does jQuery do for you?
+// jQuery makes your life easier! It helps you add mouse hover effects, and other
+// client side web page functionalities and designs with a simple syntax library.
+
+// What did you learn about the DOM while working on this challenge?
+// i learned that there are so many libraries built to help you create a website:
+// jQuery and bootstrap, for example. I learned that jQuery helps to simplify
+// the syntax for finding and manipulating DOM elements.
